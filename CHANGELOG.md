@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Coming Next
 
 - `--no-logs` flag : doesn't save any logs (some people use their own logging system)
@@ -109,6 +110,10 @@ E.g: 'pm2 start app.js -i -3' in a 8 cpus environment will start 5 instances (8 
 - Fix #1039 : Better algorithm for vision recursive parsing to avoid infinite loops
 - Automatize #858 #905: Directly init pm2 folder if not present when using it programmatically
 - Add Bus system from PM2 programmatic API
+=======
+# future
+- Fix #1036 : don't kill detached processes, an option has been added to keep the old behavior
+>>>>>>> 830c4a4... Update readme and changelog for the treekill option
 
 # 0.12.6
 
